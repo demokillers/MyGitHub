@@ -1,0 +1,16 @@
+
+ext {
+    def versions = [
+            build_tools: "31.0.0",
+            compile_sdk: 33,
+            min_sdk    : 29,
+            target_sdk : 33
+    ]
+
+    config = [
+            buildToolsVersion: versions.build_tools,
+            compileSdkVersion: versions.compile_sdk,
+            minSdkVersion    : versions.min_sdk,
+            targetSdkVersion : versions.target_sdk,
+    ]
+}

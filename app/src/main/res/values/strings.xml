@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">MyGitHub</string>
+    <string name="logout">退出登录</string>
+    <string name="login">登录</string>
+    <string name="search">搜索</string>
+    <string name="filterPython">过滤Python</string>
+    <string name="repoOpenPage">公开仓库页面</string>
+    <string name="repoDetailPage">仓库详情页面</string>
+    <string name="ownerName">用户名: %s</string>
+    <string name="repositories">仓库名: %s</string>
+    <string name="forkNum">fork: %d</string>
+    <string name="starNum">star: %d</string>
+    <string name="language">language: %s</string>
+    <string name="addIssues">新增Issues</string>
+    <string name="issuesTitle">issuesTitle</string>
+    <string name="issuesBody">issuesBody</string>
+    <string name="issuesTitleEmpty">issuesTitle不能为空</string>
+    <string name="queryEmpty">搜索关键词不能为空</string>
+    <string name="addIssuesSuccess">新增Issues成功</string>
+    <string name="back">返回</string>
+    <string name="commonError">网络异常请稍后再试</string>
+</resources>
