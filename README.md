@@ -31,17 +31,19 @@ DEMO没有区分业务错误，若频繁toast网络异常，有可能是github�
 - [Fresco] https://github.com/facebook/fresco
 - [SmartRefreshLayout] https://github.com/scwang90/SmartRefreshLayout
 
-# 使用教程(release apk包在MyGitHub/app/release目录下, 这个包使用开发个人Access Token
-# 若需要登录其他账号，请按照以下234指引操作，clone后编译生成新的APK包)
+# 使用教程
+# (release apk包在MyGitHub/app/release目录下, 这个APK使用开发个人AccessToken, 由于github限制，
+# APK上传github后，AccessToken会直接失效，因此无法登录）
+# (若需要测试登录功能，请按照以下234指引操作，clone后使用自己的AccessToken，编译生成新的APK包)
 
 1、基于github指引，在github上面注册OAuth Apps，创建仓库，然后clone下来
 
 2、命令 git clone https://github.com/demokillers/MyGitHub.git
 
-3、基于github限制，需要先获取Access Token方可登录，可以参考下面
+3、基于github限制，需要先获取AccessToken方可登录，可以参考下面
 https://docs.github.com/cn/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
 
-4、获取Access Token后，配置到项目根目录下的local.properties文件中，如：
+4、获取AccessToken后，配置到项目根目录下的local.properties文件中，如：
 USER_ACCESS_TOKEN="***********"
 
 
